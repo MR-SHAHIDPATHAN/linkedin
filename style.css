@@ -1,0 +1,605 @@
+*{
+  font-family: 'Poppins', sans-serif;
+
+
+}
+
+
+
+
+
+
+.parent{
+  /* border: 1px solid red; */
+  display: flex;
+  align-items: center;
+  background-color: rgb(255, 255, 255); 
+  position: sticky;
+  top: 0px;
+  z-index: 11; 
+
+
+}
+
+.left{
+  display: flex;
+  flex:2;
+  align-items: center;
+  margin-left: 50px;
+  background-color: rgb(255, 255, 255);
+
+}
+
+#search_input{
+  border: none;
+  outline: none;
+  background-color:#E7F6F2;
+  padding: 10px;
+  border-radius: 5px;
+  width: 60%;
+  text-align: center;
+  margin-left: 20px;
+}
+
+.search_icon{
+  position: relative;
+  left: 50px;
+  font-size: 15px;
+  
+}
+
+
+
+.middle{
+
+  display: flex;
+  flex:3 ;
+  align-items: center;
+  /* background-color: rgb(255, 255, 114); */
+
+
+}
+
+.middle_section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 20px;
+  justify-content: center;
+  
+  
+}
+
+.middle_icons{
+  font-size: 25px;
+  /* color: red; */
+}
+
+p{
+  font-size: 15px;
+  font-family: 'Poppins', sans-serif;
+  text-transform: capitalize;
+}
+
+
+
+
+
+
+
+.right{
+  display: flex;
+  flex:1 ;
+  align-items: center;
+
+
+
+}
+
+.work{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-right: 20px;
+  font-size: 25px;
+
+}
+
+
+.job_post{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+
+}
+
+
+
+/*  main section css start  🤗🤗🤞🤗 */
+
+
+.main{
+  background-color: rgb(224, 216, 216);
+  display: flex;
+  margin-left: 50px;
+  /* flex-direction: column; */
+  
+}
+
+.main_left{
+
+  flex:2;
+  background-color: rgb(255, 255, 255);
+  margin-right: 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+  
+}
+
+
+.left_profile{
+  background-color: rgb(255, 255, 255);
+  height: 480px;
+  border-radius: 20px;
+  position: sticky;
+  top: 110px;
+}
+
+
+.banner{
+  border-radius: 20px;
+
+
+
+}
+
+.banner > img {
+
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.profile_section > img{
+  position: relative;
+  left: 40%;
+  top: -40px;
+  border-radius: 50%;
+
+
+}
+
+
+.profile_info{
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  margin-bottom: auto;
+  margin-top: -50px;
+  border-radius: 20px;
+  
+
+}
+
+
+#profile_name{
+  align-self: center;
+}
+
+.profile_info > p {
+  align-self: center;
+  font-size: 12px;
+  padding: 10px;
+  margin-top: -20px;
+}
+
+
+
+.profile_view{
+  background-color:rgb(255, 255, 255);
+
+}
+
+.profile_number{
+  display: flex;
+  justify-content: space-between;
+  margin-right: 20px;
+  margin-top: 30px;
+
+}
+
+.profile_number > span {
+  font-size: 15px;
+}
+
+
+.post_number{
+  display: flex;
+  justify-content: space-between;
+  margin-right: 20px;
+}
+
+.post_number > span {
+  font-size: 15px;
+}
+
+
+.premium{
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+}
+.premium_child{
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.premium_child > span {
+  font-size: 15px;
+}
+
+
+.premium_child > i {
+
+  margin-right: 10px;
+}
+
+
+.my_items{
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+}
+
+.my_items > span {
+  font-size: 15px;
+}
+
+.my_items > i {
+  margin-right: 10px;
+}
+
+
+
+
+
+
+.main_middle{
+  background-color: rgb(201, 201, 201);
+  margin-right: 20px;
+  flex: 5;
+  margin-top: 20px;
+
+}
+
+.post_update{
+
+  border-radius: 20px;
+  background-color: rgb(255, 255, 255);
+  padding: 10px;
+}
+
+
+.profileInput{
+  /* background-color: red; */
+  display: flex;
+  align-items: center;
+}
+.profileInput > img {
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.profileInput > input {
+  width: 100%;
+  border-radius: 20px;
+  padding: 15px;
+  border: none;
+  outline: none;
+  background-color: rgb(225, 231, 239);
+}
+
+
+.profileIcons{
+  /* background-color: red; */
+  padding: 10px;
+  display: flex;
+  margin-top: 10px;
+  justify-content: space-between;
+}
+
+.photo > i {
+  margin-right: 10px;
+  cursor:pointer;
+  color: blue;
+}
+
+.video > i {
+  margin-right: 10px;
+  cursor:pointer;
+  color: green;
+}
+
+
+.job > i {
+  margin-right: 10px;
+  cursor:pointer;
+  color: purple;
+
+
+}
+
+
+.articles > i{
+  margin-right: 10px;
+  cursor:pointer;
+  color: orange;
+}
+
+
+
+
+/* post secton start */
+.posts{
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+
+.singlePost{
+  background-color:white;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+
+
+.rectionSection{
+  display: flex;
+  padding: 10px;
+  align-items: center;
+}
+
+.rectionSection > img {
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.rectionSection > i {
+  margin-left: auto;
+}
+
+
+.postProfile{
+  display: flex;
+  /* align-items: center; */
+}
+
+.ProfilePost > img {
+  border-radius: 50%;
+  margin-right: 10px;
+padding: 10px;
+}
+
+.profile_title{
+  /* background-color: red; */
+  display: flex;
+  flex-direction: column;
+}
+.profileName {
+  font-weight: bold;
+}
+
+.Prfile_desc{
+  font-size: 14px;
+}
+
+/* post capttion */
+
+.post_caption{
+  padding: 10px;
+}
+
+
+/* imgages  */
+
+
+.PostImages > img {
+
+  width: 100%;
+  border-radius: 20px;
+ 
+
+}
+
+
+/* likes comments share start */
+
+.likes{
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  padding: 10px;
+  justify-content: space-between;
+  font-size: 17px;
+  color: rgb(132, 116, 116);
+  
+}
+
+
+.like{
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.like:hover{
+  background-color: rgb(243, 235, 235);
+  padding: 10px 30px;
+}
+
+
+.commnets{
+  cursor: pointer;
+}
+
+
+.commnets:hover{
+  background-color: rgb(243, 235, 235);
+  padding: 10px 30px;
+}
+
+
+
+
+.share{
+  cursor: pointer;
+}
+
+
+.share:hover{
+
+  background-color: rgb(243, 235, 235);
+  padding: 10px 30px;
+
+}
+
+
+.send{
+  margin-right: 10px;
+cursor: pointer;
+
+  
+}
+
+
+.send:hover{
+
+  background-color: rgb(243, 235, 235);
+  padding: 10px 30px;
+}
+
+
+
+/* main right section start */
+
+
+.main_right{
+  background-color: rgb(250, 236, 236);
+  margin-right: 20px;
+  flex: 3;
+
+}
+
+.linked_news{
+  border-radius: 20px;
+  background-color: white;
+  margin-top: 20px;
+  /* border: 1px solid rgb(26, 255, 0); */
+
+
+}
+
+.linked_icon{
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.first{
+  display: flex;
+  /* padding: 10px; */
+  align-items: center;
+  /* border: 1px solid red; */
+  margin-left: 10px;
+}
+
+
+
+.first > i {
+  font-size: 10px;
+
+}
+
+
+.first > span {
+  margin-left: 10px;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+
+.first_decs{
+  font-size: 14px !important;
+  margin-left: 30px;
+  /* border: 1px solid red; */
+  text-transform: capitalize;
+  
+
+
+}
+
+
+/* second section  */
+.second{
+  margin-top: 10px !important;
+}
+
+
+
+/* right last section  */
+
+
+.right_last{
+  border-radius: 20px;
+  background-color: white;
+  padding: 20px;
+  margin-top: 10px;
+  position: sticky;
+  top: 90px;
+}
+
+
+.right_last > span{
+  font-size: 12px;
+  color: gray;
+}
+
+.last_imgs{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.last_imgs > img {
+  border-radius: 50%;
+  margin-top: 10px;
+}
+
+.right_last > p {
+  color: rgb(25, 24, 24);
+  text-align: center;
+}
+
+
+.rightbtn{
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: center;
+}
+
+.rightbtn > button {
+  padding: 10px 30px;
+  font-size: 20px;
+  border-radius: 30px;
+  border: 1px solid blue;
+  text-transform: capitalize;
+  cursor: pointer;
+  font-family: cursive !important;
+}
+
+
+.rightbtn > button:hover{
+  background-color: orange;
+  border: 2px solid rgb(255, 0, 93);
+  color: white;
+}
